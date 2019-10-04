@@ -1,0 +1,27 @@
+#footer{
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+#footer a{
+  color:white;
+  text-decoration: none;
+
+}
+
+.row{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.col{
+  text-decoration: none;
+  color: black;
+}
+
+.head1{
+  margin-left: auto;
+}
+
+body{
+	background-color: #e3f2fd;
+}

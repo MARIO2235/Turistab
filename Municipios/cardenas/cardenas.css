@@ -1,0 +1,36 @@
+p{
+
+  text-align: justify;
+  margin-left: 10px;
+}
+
+footer{
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  color:white;
+}
+
+
+.head1{
+  margin-left: auto;
+}
+.imgnav{
+  border-radius: 5px;
+}
+
+#carousel{
+  position: relative;
+}
+
+#carousel .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.hotel{
+  text-align: center;
+}
+

@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <style type="text/css">
+      .col-sm{
+        border: 1px solid blue;
+      }
+    </style>
+
+    <script type="text/javascript" src="rutas.js"></script>
+
+    <title>Conoce Tabasco, Conoce el eden!</title>
+  </head>
+
+       <header>
+        <nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img class="imgnav pl-4" src="imagenes/logo.png" width="120" height="75"> TURISTAB </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      
+
+      <li class="nav-item">
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-ruta">
+  Arma Tu Ruta
+</button>
+      </li>
+      
+    </ul>
+    
+      
+   
+  </div>
+</nav>
+      </header>
+
+
+ <!-- Aqui empieza el cuerpo del Home -->
+  <body>
+   
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a href="Municipios/cardenas/cardenas.html"><img src="imagenes\cardenas.png"> Cárdenas</a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="imagenes\huimanguillo.png"> Huimanguillo</a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="imagenes\comalcalco.png"> Comalcalco</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <a href="./Municipios/jalpa de mendez/jalpa.html"><img src="imagenes\jalpa de mendez.png">  Jalpa de Méndez</a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="imagenes\cunduacan.png"> Cunduacán</a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="imagenes\jalapa.png"> Jalapa</a>
+        </div>
+      </div>
+
+
+       <div class="row">
+        <div class="col">
+          <a href="#"><img src="imagenes\balancan.png"> Balancán</a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="imagenes\tenosique.png"> Tenosique</a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="imagenes\jonuta.png"> Jonuta</a>
+        </div>
+      </div>
+
+
+        <div class="row">
+        <div class="col">
+          <a href="#"><img src="imagenes\centla.png"> Centla</a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="imagenes\paraiso.png"> Paraiso</a>
+        </div>
+        <div class="col">
+          <a href="Municipios/tacotalpa/tacotalpa.html"><img src="imagenes\tacotalpa.png"> Tacotalpa</a>
+        </div>
+      </div>
+
+
+        <div class="row">
+        <div class="col">
+          <a href="#"><img src="imagenes\emiliano zapata.png"> Emiliano Zapata</a>
+        </div>
+        <div class="col">
+          <a href="Municipios/teapa/teapa.html"><img src="imagenes\teapa.png"> Teapa</a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="imagenes\macuspana.png">  Macuspana</a>
+        </div>
+      </div>
+
+
+        <div class="row text-center">
+        <div class="col">
+          <a href="#"><img src="imagenes\nacajuca.png"> Nacajuca</a>
+        </div>
+        <div class="col">
+          <a href="./Municipios/Villahermosa/centro.html"><img src="imagenes\centro.png" height="70" width="70"> Villahermosa</a>
+        </div>
+        
+      </div>
+
+         </div>
+
+
+    <!-- Pie de Pagina -->
+   <footer id="footer" class="pb-4 pt-4">
+     <div class="container">
+       <div class="row text-center">
+         <div class="col-12 col-lg"><a href="#">Preguntas Frecuentes</a></div>
+         <div class="col-12 col-lg"><a href="#">Contacto</a></div>
+          <div class="col-12 col-lg"><a href="#">Tabasco</a></div>
+       </div>
+
+     </div>
+   </footer>
+   <!-- end footer -->
+
+ 
+
+   <!-- Modal Arma tu ruta -->
+<div class="modal fade" id="modal-ruta" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Escoge tu Ruta</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- inicia modal form -->
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre(s)" id="nombre">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Apellidos" id="apellidos">
+              </div>
+              <div class="col">
+                <input type="text" id="from" placeholder="Lugar de Origen" class="form-control">
+              </div>
+            </div> 
+            <div class="form-row">
+              <div class="col pt-4">
+                <div class="card" style="width: 100px; height: 100px;">
+                  <img class="card-img-top" src="imagenes/arq.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <button type="button" class="btn btn-primary btn-sm">Select</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col pt-4">
+                <div class="card" style="width: 100px; height: 100px;">
+                  <img class="card-img-top" src="imagenes/rios.jpg" height="60" alt="Card image cap">
+                  <div class="card-body">
+                    <button type="button" class="btn btn-primary btn-sm">Select</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col pt-4">
+                <div class="card" style="width: 100px; height: 100px;">
+                  <img class="card-img-top" src="imagenes/cacao.jpg" height="60" alt="Card image cap">
+                  <div class="card-body">
+                    <button type="button" class="btn btn-primary btn-sm">Select</button>
+                   
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </form>
+          <div class="alert alert-warning" style="margin-top: 20px;" role="alert">
+           Recibirás en tu bandeja de correo los detalles de tu Ruta
+        <!-- end Modal form -->
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success" onclick="ruta()">Armar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- end Modal Arma tu ruta -->
+
+    <!-- Optional JavaScript -->
+      
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

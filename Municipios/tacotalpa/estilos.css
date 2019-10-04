@@ -1,0 +1,16 @@
+footer{
+	background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+	color:white;
+}
+section{
+	padding-top: 20px;
+}
+.container{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sugerir{
+	text-decoration: none;
+	color: white;
+}
